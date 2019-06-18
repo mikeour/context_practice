@@ -18,7 +18,7 @@ const Movie = props => {
     <ul>
       <li>{name}</li>
       <li>{price}</li>
-      <button onClick={handleClick}>x</button>
+      <button onClick={handleClick}>Delete</button>
     </ul>
   );
 };

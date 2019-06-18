@@ -5,8 +5,8 @@ const Nav = () => {
   const [movies, setMovies] = useContext(MovieContext);
   return (
     <div>
-      <h6>Context Movie List</h6>
-      <h6>Number of movies: {movies.length}</h6>
+      <h1>Context Movie List</h1>
+      <h2>Total movies: {movies.length}</h2>
     </div>
   );
 };
